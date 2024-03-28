@@ -1,0 +1,114 @@
+.second-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(22, 28, 45, 1);
+    border: hwb(329 11% 12%);
+}
+
+.second-section .content {
+    flex: 1;
+    padding-right: 30px; /* Adicione o padding-right para criar espaço entre o texto e a imagem */
+}
+
+.second-section span:first-child {
+    color: red; /* Altera a cor do primeiro span para vermelho */
+}
+
+.second-section h1 {
+    font-size: 42px; /* Aumenta o tamanho da fonte do h1 */
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: -1px; /* Adicione esta linha para comprimir o texto do h1 */
+}
+
+.second-section span:nth-of-type(2) {
+    color: rgba(22, 28, 45, 0.7);
+    letter-spacing: -0.5px; /* Adicione esta linha para comprimir o texto do segundo span */
+}
+
+.second-section span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.second-section button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #473BF0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px; /* Adicione o margin-top para mover o botão para baixo */
+}
+
+.second-section .livro-foto {
+    width: 463px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+ 
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    height: 32 vh;
+  }
+  
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+  }
+  header button {
+    padding: 10px 20px;
+    background-color: #473BF0; /* Cor de fundo laranja */
+    color: #FFFFFF; /* Cor do texto branco */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    transition: background-color 0.3s ease; /* Efeito de transição suave na cor de fundo */
+}
+
+header button:hover {
+    background-color: #191735; /* Altera a cor de fundo ao passar o mouse */
+    cursor: pointer;
+}
